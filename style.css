@@ -1,0 +1,357 @@
+body{background: rgba(200,150,44,0.4);
+				font-family: Times new Roman;
+				margin: 0px;
+				padding: 0px;
+				background-size:cover;
+				background-repeat: no-repeat;
+				width: 100%;
+			
+}
+
+html{
+				height: 100%;
+}	
+
+								/* Global*/
+
+#hom{
+				width:80% ;
+				overflow:hidden;
+				margin:auto;
+}
+
+.whole{
+				margin-left: 5px;
+				margin-right: 5px;
+}
+
+.me{
+				margin: 0px;
+				padding:0px;
+				text-align: right;}
+			
+	header{
+					background:#990011ff;
+					width: 100%;
+					border-bottom: 3px solid black;
+	}		
+			
+	#myname, 	#small, #signin{
+					text-align:center;
+					font-weight:bolder;
+		}
+		
+	.name{
+						margin-top: -15px;
+						margin-bottom:-15px ;
+						color:#990011ff ;
+						font-size: 200%;
+		}
+			
+	.about, .con, .reg, .log 								
+	{		text-decoration:none;
+			color:white;
+			display:inline;
+			text-align:right;	
+			padding-left:		5px;
+}
+
+.regsignup{
+				height: 30px;
+				background:gold;	
+				border-radius: 5px;
+				padding-right: 25px;
+				padding-left: 25px;
+				color: blue;
+				border:1px dotted yellow;
+				font-size:20px;
+				font-family:serif;
+				font-weight: bold;		
+				margin-bottom:20px;
+}
+#reglogin{
+				text-decoration:none;
+				color: blue;
+				font-size: 20px;
+}
+
+#bitton{
+				background: #A13941FF;
+				border:2px dotted pink;
+				padding: 5px;	
+				border-radius: 8px;
+				margin-top: 5px;
+				font-family: serif;
+				font-size: 80%;
+				font-weight: bolder;
+				color: white;
+}
+
+#email{
+				background: white;
+				padding: 5px;
+				color: black;
+				border:1px solid grey;
+				border-radius: 5px;
+				font-family: serif;
+				text-align:left;		
+}
+
+.lets{
+				text-align: right;
+}
+
+#crixytech{
+		  text-align:left;
+				
+}
+
+.bitton{
+			 height: 40px;
+				background-color:#184A45FF;
+				border-radius: 5px;
+				padding-right: 20px;
+				padding-left: 20px;
+				border:5px	;
+				margin-bottom: 20px;
+}
+
+#bit{
+				text-decoration:none;
+				font-family: serif;
+				font-weight: bolder;
+				font-size: 25px;
+				color: white;
+}
+
+footer{
+			background: #990011ff;
+			position: fluid;
+			bottom: 0px;
+			color: black;
+			width: 100%;
+			margin: 0px;
+			padding: 10px 10px 0px 10px;
+			text-align:center;
+			font-weight:bold;
+			border-top: 2px solid black;
+					
+}
+
+span{color: gold;}
+
+img{
+				width:40% ;
+				padding: 5px;
+				float:left;
+			
+}
+
+.aside{
+				width: 43%;
+				float:right;
+				margin:10px ;
+				padding: 5px ;
+				height: 25px;
+				text-align: justify;
+				margin-top: -10px;
+				font-size: 130%;
+}
+
+.prof{
+				text-align:center;
+				margin-top:100px;
+				font-size: 200%;
+}
+
+.main1{
+				width: 100%;
+				padding:5px;
+				vertical-align: middle;
+				margin-left: 20px;
+}
+
+.section, #testa{
+				text-align:center;
+}
+
+.sign{
+				text-align:left;
+				margin-top: 50px;
+				font-size: 200%;
+				color:#990011ff;
+				margin-left: 20px;
+}
+
+.enput{
+				background: rgba(46,60,70,0.3);
+				width: 280px;
+				padding: 30px 30px 0px ;
+				margin-bottom: 20px;
+				margin-top:-10px ;
+				margin-left: 180px;
+				margin: 0 auto;
+				border-radius: 10px;
+}
+
+#nput{
+				background: rgba(45,20,70,0.2);
+				width: 230px;
+				padding: 15px 15px 2px ;
+				margin-bottom: 10px;
+				margin-top:-10px ;
+				margin-left: 100px;
+				margin: 0 auto;
+				border-radius: 10px;
+				font-size: 18px;
+				color: white;
+				text-align:left;
+				font-family: serif;
+				border:none;
+				border-bottom:2px solid grey;
+}
+
+::placeholder{
+				color:#301728ff;
+				opacity:0.7;
+				font-family:serif;}
+				
+#input{
+			width: 270px;
+			text-align:centr;
+			background: transparent;
+			padding:8px 1px;
+			border: none;
+			border-bottom: 2px solid gold;
+			font-size: 18px;
+			font-weight: 180px;
+			height: 25px;
+			transition: outline 0.5s;
+			outline:none;
+			cursor:pointer;			
+			color:black;
+}
+
+#enput{
+		 text-align:center;
+	 	background: rgba(118,114,138,0.3);
+		 width: 250px;
+		 border:none;
+		 border-bottom:1.5px solid green;
+		 padding: 4px 1px;
+		 font-size:15px;
+		 font-weight:100px;
+		 height:25px;
+		 transition: outline 0.5s;
+		 outline:none;
+		 text-align:left;
+		 color: white;
+		 font-family: serif;
+}
+
+#name{
+				font-size: 18px;
+}
+
+#sgender{
+				width: 200px;
+				padding: 5px 1px;
+				font-size: 20px;
+				font-weight: 180px;
+				height: 35px;
+				border-radius: 5px;
+}
+
+.thanks{
+				color: black;
+				display:inline-block;
+				padding: 5px;
+				height: 50px;
+				width: 75%;
+				font-weight:bold;
+				margin-top: 15px;
+				margin-bottom: 50px;
+}
+
+.logpage{
+				background: rgba(14,2,10,0.2);
+				width: 270px;
+				padding: 30px 30px 0px;
+				margin-top: -10px;
+				margin-bottom:20px;
+				margin-left: 100px;
+				margin: 0 auto;
+				border-radius: 10px;
+			
+}
+
+.testa{
+				margin-left: 15px;
+				margin-right: 15px;
+}
+
+#contact{
+				border:2px solid red;
+				padding: 10px 10px 0px;
+				margin-bottom: 20px;
+				margin-top:30px ;
+				border-radius: 10px;
+}
+
+#comment{
+				text-align:justify;
+				margin-top: -20px;
+				width: 283px;
+}
+
+
+
+#ct{
+				font-size:300%;
+				color: #990011ff;
+				margin-bottom: 50px;
+				margin-top: -10px;
+}
+
+.contact{
+				font-size:250%;
+				color: black;
+				margin-bottom: 40px;
+				text-align:left;
+}
+
+           
+
+          
+
+            
+
+              
+
+               
+
+                
+
+             
+
+          
+
+           
+
+               
+           
+
+
+
+ 
+ 
+
+ 
+
+ 
+
+     
+
+
+
+
